@@ -10,7 +10,7 @@
 // number guessed by user      
 var x = document.getElementById("guessField").value; 
 
-if(x == y) 
+if(x === y) 
 {     
     alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN "
             + guess + " GUESS "); 
